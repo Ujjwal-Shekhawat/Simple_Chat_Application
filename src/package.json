@@ -1,0 +1,17 @@
+{
+  "name": "chatapplications",
+  "version": "1.0.0",
+  "description": "SimpleChatApplication",
+  "main": "mainscript.js",
+  "scripts": {
+    "start": "node mainscript",
+    "nodemon": "nodemon server"
+  },
+  "author": "Ujjwal Singh Shekhawat",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
