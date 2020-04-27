@@ -1,1 +1,1 @@
-"web: node mainscript.js" 
+"web: node src/mainscript.js" 

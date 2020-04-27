@@ -48,7 +48,7 @@
       }
     </style>
     <script src="../../socket.io/socket.io.js"></script>
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
   </head>
   <body>
     <ul id="messages"></ul>
@@ -56,7 +56,7 @@
       <input id="txt" placeholder="Enter your message" /><button>Send</button>
     </form>
     <script>
-      var socket = io.connect('http://localhost:8080');
+      var socket = io();
       // submit text message without reload/refresh the page
       $('form').submit(function (e) {
         e.preventDefault(); // prevents page reloading
